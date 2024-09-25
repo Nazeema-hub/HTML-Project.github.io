@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Curriculam</title>
+</head>
+<body>
+    <form action="msg.html">
+        <h3>Enter Your Details</h3>
+            <label for="name">Name</label><br><br>
+            <input type="text" id="name" required pattern="[a-zA-Z]{3,10}" placeholder="Name"><br><br>
+            <label for="mail">Email</label><br><br>
+            <input type="email" id="mail" required pattern="[a-z0-9._]+@[a-z0-9._]+\.[a-z]{2,4}$/" placeholder="you@gmail.com"><br><br>
+            <label for="phNumber">Phone Number</label><br><br>
+            <input type="tel" id="phNumber" required pattern="[6-9][0-9]{9}" placeholder="91"><br><br>
+            <label for="msg">Message</label><br><br>
+            <input type="text" id="msg" placeholder="message"><br><br>
+            <button>Send Message</button>
+    </form>
+</body>
+</html>
